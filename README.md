@@ -1,9 +1,10 @@
+<<<<<<< HEAD
 # Ruby Flashcards
 
-## Summary 
+## Summary
 We're going to build a flashcard application that functions like the application shown in Figure 1—it's not necessary to build an exact copy.  As always, write elegant, object-oriented code, thinking through design decisions and making judgements on the best courses of action.
 
-![flashcards animation](readme-assets/flashcards-animation.gif)  
+![flashcards animation](readme-assets/flashcards-animation.gif)
 *Figure 1*.  Example flashcard implementation.
 
 
@@ -33,7 +34,7 @@ As best we can, follow the MVC design pattern.  Our implementation will likely d
 
 
 ## Conclusion
-Reflect back on the decisions we made in completing this challenge.  How did the design decisions that we made in the *Pre-release* hold up as we began to develop our application?  Did they facilitate the MVC design pattern?  What changed and what remained from our original design?  
+Reflect back on the decisions we made in completing this challenge.  How did the design decisions that we made in the *Pre-release* hold up as we began to develop our application?  Did they facilitate the MVC design pattern?  What changed and what remained from our original design?
 
 How flexible is our code?  Is it easily adaptable?  If we made changes to our code, how many objects would need to be modified?  For example, what if we wanted to support multiple choice questions?  What if we changed the data store file?
 
@@ -44,3 +45,6 @@ What learnings can we take forward and apply to our future code?
 [wikipedia design pattern]: http://en.wikipedia.org/wiki/Software_design_pattern
 [wikipedia mvc]: http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 
+=======
+
+>>>>>>> b2dd09a998d784ea5f78f9575b60565333e8f62f
