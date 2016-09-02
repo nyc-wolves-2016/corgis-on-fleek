@@ -1,12 +1,13 @@
 class Flashcard
 
-  attr_reader :question, :answer, :status
+  attr_reader :question, :answer
 
   def initialize(args)
     @question = args.fetch(:question)
     @answer = args.fetch(:answer)
-    @status = args.fetch(:status) || "incomplete"
   end
 
-  def
+  def is_correct?(response)
+    response == self.answer.downcase
+  end
 end
