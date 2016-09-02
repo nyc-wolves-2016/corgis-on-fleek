@@ -10,6 +10,8 @@ module View
   end
 
   def self.good_job
+    banner = File.read('ascii2.txt')
+    puts banner
     puts "Good job!\n\n"
   end
 
