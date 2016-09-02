@@ -8,6 +8,6 @@ class Flashcard
   end
 
   def is_correct?(response)
-    response == self.answer
+    response == self.answer.downcase
   end
 end

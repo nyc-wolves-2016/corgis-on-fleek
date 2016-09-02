@@ -14,7 +14,9 @@ module View
   end
 
   def self.incorrect_message(answer)
-    puts "Sorry! The answer was #{answer}.\n\n"
+    banner = File.read('ascii.txt')
+    puts banner
+    puts "The answer was #{answer}. \n\n"
   end
 
   def self.select_category
