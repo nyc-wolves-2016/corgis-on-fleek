@@ -7,6 +7,7 @@ require_relative 'Flashcard_parser'
 
 category = View.select_category
 
+file_name = nil
 until file_name != nil
   if category == 'otters'
     file_name = 'otter_flashcard_data.txt'

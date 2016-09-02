@@ -7,7 +7,7 @@ module FlashcardParser
 
   private
 
-  def make_flashcards_args(array_of_rows)
+  def self.make_flashcards_args(array_of_rows)
     flashcard_args_array = []
     array_of_rows.each_with_index do |row,idx|
       if idx%2 == 0
@@ -22,5 +22,3 @@ module FlashcardParser
 end
 
 
-
-p FlashcardParser.parse('raccoon_flashcard_data.txt')
