@@ -17,9 +17,10 @@ module FlashcardParser
         flashcard_args_array << flash_card_arg
       end
     end
+    flashcard_args_array
   end
 end
 
 
 
-# FlashcardParser.parse('raccoon_flashcard_data.txt')
+p FlashcardParser.parse('raccoon_flashcard_data.txt')

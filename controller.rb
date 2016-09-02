@@ -1,27 +1,21 @@
+class Controller
 
+  def initialize(args)
+    @view = args.fetch(:view)
+    @flashcard_stack = args.fetch(:flashcard_stack)
+  end
 
-
-
-
-
-
-
-def compare_answer(user_answer)
-    if self.card_list(flashcard.status) - "incorrect"
-      if self.card_list[flashcard.answer] == user_answer
-        self.card_list(flashcard.status) = "correct"
-        next_question
+  def run
+    until @flashcard_stack.next == nil
+      flashcard = @flashcard_stack.next
+      @view.display_question(flashcard.question)
+      answer = @view.get_response
+      if flashcard.is_correct?(answer)
+        @view.good_job
       else
-        show_answer
-        next_question
-      end
-    elsif
-      if self.card_list[flashcard.answer] == user_answer
-        self.card_list(flashcard.status) = "correct"
-        next_question
-      else
-        self.card_list(flashcard.status) - "incorrect"
-        second_guess
+        @view.incorrect_message(flashcard.answer)
       end
     end
   end
+
+end

@@ -1,4 +1,34 @@
 
+module View
+
+  def self.display_question(question)
+    puts question
+  end
+
+  def self.get_response
+    gets.chomp.downcase
+  end
+
+  def self.good_job
+    puts "Good job!"
+  end
+
+  def self.incorrect_message(answer)
+    puts "Sorry! The answer was #{answer}."
+  end
+
+  def self.select_category
+    puts "Choose a category to be quizzed in: enter 'otters', 'nighthawks', or 'raccoons'."
+    gets.chomp.downcase
+  end
+
+  def self.invalid_input
+    puts "Please enter a valid category: "
+    get_response
+  end
+
+
+end
 
 
 
@@ -7,7 +37,4 @@
 
 
 
-# def display_question
-#   self.card_list[flashcard.question]
-#   compare_answer
-# end
+
