@@ -8,4 +8,5 @@ class Flashcard
     @status = args.fetch(:status) || "incomplete"
   end
 
+  def
 end
