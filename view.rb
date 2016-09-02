@@ -10,11 +10,11 @@ module View
   end
 
   def self.good_job
-    puts "Good job!"
+    puts "Good job!\n\n"
   end
 
   def self.incorrect_message(answer)
-    puts "Sorry! The answer was #{answer}."
+    puts "Sorry! The answer was #{answer}.\n\n"
   end
 
   def self.select_category

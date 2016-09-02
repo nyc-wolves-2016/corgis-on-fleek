@@ -10,4 +10,8 @@ class FlashcardStack
     self.card_list.delete_at(0)
   end
 
+  def empty?
+    self.card_list.length == 0
+  end
+
 end

@@ -6,7 +6,7 @@ class Controller
   end
 
   def run
-    until @flashcard_stack.next == nil
+    until @flashcard_stack.empty?
       flashcard = @flashcard_stack.next
       @view.display_question(flashcard.question)
       answer = @view.get_response

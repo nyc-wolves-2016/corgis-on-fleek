@@ -21,4 +21,3 @@ module FlashcardParser
   end
 end
 
-
