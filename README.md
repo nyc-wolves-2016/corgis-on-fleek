@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Ruby Flashcards
+# Corgis' Ruby Flashcards
 
 ## Summary
 We're going to build a flashcard application that functions like the application shown in Figure 1—it's not necessary to build an exact copy.  As always, write elegant, object-oriented code, thinking through design decisions and making judgements on the best courses of action.
@@ -45,6 +44,4 @@ What learnings can we take forward and apply to our future code?
 [wikipedia design pattern]: http://en.wikipedia.org/wiki/Software_design_pattern
 [wikipedia mvc]: http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 
-=======
 
->>>>>>> b2dd09a998d784ea5f78f9575b60565333e8f62f
