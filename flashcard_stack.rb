@@ -1,0 +1,2 @@
+class FlashcardStack
+end
